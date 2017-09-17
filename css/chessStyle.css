@@ -1,0 +1,125 @@
+.col-lg-3{
+    background-color: palevioletred;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    color: black;
+
+}
+.col-lg-1{
+    background-color: black ;
+    width: 80px;
+    height: 80px;
+
+}
+.col-lg-2{
+    background-color: darkblue;
+    width: 80px;
+    height: 80px;
+}
+.col-lg-4{
+    background-color: palevioletred;
+    width: 60px;
+    height: 30px;
+
+}
+.col-lg-5{
+    background-color: palevioletred;
+    width: 20px;
+    height: 80px;
+    color: black;
+}
+.groupBlack{
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.groupWhite{
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#body{
+    background-color: gray;
+    /*background-image: url("../images/backgroundpic.jpg");*/
+
+}
+.row{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.col-lg-1:hover {
+    box-shadow: inset 0px 0px 6px 10px rgba(50, 345, 59, .8);
+}
+.col-lg-2:hover {
+    box-shadow: inset 0px 0px 6px 10px rgba(50, 345, 59, .8);
+}
+
+#tropic{
+    font-size: 50px;
+    font-weight: bold;
+    color: lightblue;
+    font-style: italic;
+    text-align: center;
+}
+.header-img{
+    height: 80px;
+    width: 80px;
+}
+#scoreW{
+    height: 700px;
+    width: 210px;
+    background-color: black;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 0.5;
+
+}
+#scrW{
+    color: lawngreen;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#scoreB{
+    height: 700px;
+    width: 210px;
+    background-color: black;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 980px;
+    opacity: 0.5;
+
+}
+#scrB{
+    color: lawngreen;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.selectPath{
+    box-shadow: inset 0px 0px 6px 10px #2aabd2;
+}
+.selectClick{
+    box-shadow: inset 0px 0px 6px 10px blue;
+}
+.cross{
+    box-shadow: inset 0px 0px 6px 10px red;
+}
