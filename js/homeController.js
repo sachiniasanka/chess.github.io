@@ -484,10 +484,10 @@ $(".squre").on("click",function (eventData) {
 });
 /////////////////////////////////////////////////////////////////////
 
-var IdW=$("#firstRow").children().first().attr('id');
-var IdB=$("#firstRowB").children().first().attr('id');
+var IdW=$("#scoreW").children().first().attr('id');
+var IdB=$("#scoreB").children().first().attr('id');
 
-$(".squre").on("click",function (eventData) {
+$(".squre").mousedown(function (eventData) {
     var currentSquar=$(this);
     var currentpiece=$(".img.selectClick");
     if ($(currentSquar).hasClass('selectPath')) {
@@ -498,7 +498,7 @@ $(".squre").on("click",function (eventData) {
     }
     if ($(currentSquar).hasClass('cross')) {
         var y=$(currentpiece).clone();
-        $(currentpiece).remove();
+       /* $(currentpiece).remove();*/
         console.log(IdB);
         if((currentpiece.hasClass('groupBlack'))){
             var x=$(currentSquar).children().clone();

@@ -1,9 +1,9 @@
 .col-lg-3{
-    background-color: palevioletred;
+    background-color: black;
     width: 80px;
     height: 30px;
     text-align: center;
-    color: black;
+    color: white;
 
 }
 .col-lg-1{
@@ -18,16 +18,16 @@
     height: 80px;
 }
 .col-lg-4{
-    background-color: palevioletred;
+    background-color: black;
     width: 60px;
     height: 30px;
 
 }
 .col-lg-5{
-    background-color: palevioletred;
+    background-color: black;
     width: 20px;
     height: 80px;
-    color: black;
+    color: white;
 }
 .groupBlack{
     height: 65px;
