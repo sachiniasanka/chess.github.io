@@ -49,7 +49,7 @@
 }
 #body{
     background-color: gray;
-    /*background-image: url("../images/backgroundpic.jpg");*/
+    background-image: url("../images/backgroundpic.jpg");
 
 }
 .row{
@@ -76,7 +76,7 @@
 }
 #scoreW{
     height: 700px;
-    width: 210px;
+    width: 220px;
     background-color: black;
     position: absolute;
     margin-top: 20px;
@@ -96,7 +96,7 @@
 }
 #scoreB{
     height: 700px;
-    width: 210px;
+    width: 220px;
     background-color: black;
     position: relative;
     margin-top: 0px;

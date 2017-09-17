@@ -464,17 +464,7 @@ $(".squre").on("click",function (eventData) {
     if ($(currentSquar).hasClass('cross')) {
         var y=$(currentpiece).clone();
         $(currentpiece).remove();
-        // if((currentpiece.hasClass('Black'))){
-        //     var x=$(currentSquar).children().clone();
-        //     $(currentSquar).children().remove();
-        //     $("#"+IdW).append(x);
-        //     IdW++;
-        // }else{
-        //     var x=$(currentSquar).children().clone();
-        //     $(currentSquar).children().remove();
-        //     $("#"+IdB).append(x);
-        //     IdB++;
-        // }
+
         $(currentSquar).children().remove();
         currentSquar.append(currentpiece);
         squares.removeClass('selectPath');
@@ -498,7 +488,6 @@ $(".squre").mousedown(function (eventData) {
     }
     if ($(currentSquar).hasClass('cross')) {
         var y=$(currentpiece).clone();
-       /* $(currentpiece).remove();*/
         console.log(IdB);
         if((currentpiece.hasClass('groupBlack'))){
             var x=$(currentSquar).children().clone();
